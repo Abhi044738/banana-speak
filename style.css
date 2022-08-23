@@ -1,0 +1,56 @@
+@import url();
+
+:root{
+
+}
+
+
+
+
+body{
+    font-family: ; 
+    margin: 0rem 1rem;
+    max-width: 99.99%;
+}
+h1{
+    background-color: yellow;
+    color: aliceblue;
+    padding: 3rem;
+    border-radius: 2rem;
+    font-size: 500%;
+    margin-bottom: 2rem;
+}
+textarea {
+    
+    width: 90%;
+    height:10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 90%;
+    margin: 3rem 1 rem;
+    resize: auto;
+    padding: 1rem;
+    
+}
+
+hr{
+    margin: 5rem 0rem;
+}
+
+
+h1{
+    font-family: ;
+}
+
+
+.containor{
+    text-align: center;
+    margin:auto;
+
+}

@@ -11,6 +11,7 @@ body{
     font-family: ; 
     margin: 0rem 1rem;
     max-width: 99.99%;
+    place-content: center;
 }
 h1{
     background-color: yellow;
@@ -18,25 +19,48 @@ h1{
     padding: 3rem;
     border-radius: 2rem;
     font-size: 500%;
-    margin-bottom: 2rem;
+    margin: 0rem 0rem;
+    margin-bottom: 5rem;
 }
 textarea {
-    
+    margin-left: auto;
+    margin-right: auto;
     width: 90%;
-    height:10vh;
+    height:20vh;
     display: block;
-    margin: 1rem;
     padding: 1rem;
+    margin-bottom: 2rem;
+   
 }
 
 #output {
+    margin: auto;
     border: 1px solid black;
-    height: 10vh;
+    height: 20vh;
     width: 90%;
-    margin: 3rem 1 rem;
     resize: auto;
-    padding: 1rem;
+    padding: 1rem; 
+}
+.center{
+    height: 3rem;
+}
+.btn{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
     
+}
+button{
+    max-width:max-content;
+    place-items: center;
+
+    width:;
+    font-size: 2rem;
+
+    
+}
+.outputheading{
+    font-size:xx-large
 }
 
 hr{
@@ -51,6 +75,23 @@ h1{
 
 .containor{
     text-align: center;
-    margin:auto;
 
+}
+
+
+footer{
+    background-color: yellow;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-size:larger;
+    margin: 0rem 0rem;
+}
+
+.footer-margin{
+    padding:0.5rem 0.5rem;
+    text-align: center;
+}
+.unorder-inline-list{
+    display:inline;
+    padding: 0rem 0.5rem;
 }

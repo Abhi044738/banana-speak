@@ -1,23 +1,15 @@
-@import url();
-
-:root{
-
-}
-
-
-
 
 body{
-    font-family: ; 
+    background-color:#DED4E8;
     margin: 0rem 1rem;
     max-width: 99.99%;
     place-content: center;
 }
 h1{
-    background-color: yellow;
+    background-color:#E8BA40;
     color: aliceblue;
     padding: 3rem;
-    border-radius: 2rem;
+    border-end-end-radius: 2rem;
     font-size: 500%;
     margin: 0rem 0rem;
     margin-bottom: 5rem;
@@ -30,6 +22,9 @@ textarea {
     display: block;
     padding: 1rem;
     margin-bottom: 2rem;
+    color: #C7395F;
+    background-color: #DED4E8;
+    font-size: 1.5rem;
    
 }
 
@@ -40,6 +35,8 @@ textarea {
     width: 90%;
     resize: auto;
     padding: 1rem; 
+    color: #C7395F;
+    font-size: 1.5rem;
 }
 .center{
     height: 3rem;
@@ -53,14 +50,13 @@ textarea {
 button{
     max-width:max-content;
     place-items: center;
-
-    width:;
+    background-color:  #81cad6;
     font-size: 2rem;
 
     
 }
 .outputheading{
-    font-size:xx-large
+    font-size:xx-large;
 }
 
 hr{
@@ -68,23 +64,23 @@ hr{
 }
 
 
-h1{
-    font-family: ;
-}
+
 
 
 .containor{
     text-align: center;
+    
 
 }
 
 
 footer{
-    background-color: yellow;
+    background-color: #E8BA40;
     padding: 0.5rem;
-    border-radius: 2rem;
+    border-end-end-radius: 2rem;
     font-size:larger;
     margin: 0rem 0rem;
+    margin-top: 1rem;
 }
 
 .footer-margin{
@@ -94,4 +90,15 @@ footer{
 .unorder-inline-list{
     display:inline;
     padding: 0rem 0.5rem;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.textinlarge{
+    font-size: 2.5rem;
 }
